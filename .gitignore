@@ -1,0 +1,10 @@
+# Ignore all build directories
+/build/
+
+# Ignore all .a files
+*.a
+
+# Ignore all .o files
+*.o
+
+.cache/
