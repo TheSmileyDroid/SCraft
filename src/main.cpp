@@ -2,7 +2,7 @@
 
 #include <iostream>
 
-int main() {
+int main(int argc, char *argv[]) {
   Window window;
 
   if (window.createWindow() == -1) {
