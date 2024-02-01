@@ -7,5 +7,6 @@
     "startproject",
     "project",
     "kind"
-  ]
+  ],
+  "Lua.diagnostics.disable": ["undefined-global"]
 }

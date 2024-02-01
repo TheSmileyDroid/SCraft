@@ -9,7 +9,7 @@ project "NovaCraft"
   language "C++"
   cppdialect "C++20"
   files {"include/**.h", "src/**.cpp"}
-  includedirs { "/usr/include/"}
+  includedirs { "/usr/include/", "include" }
   libdirs { "/usr/lib/" }
 
     links { "glfw", "OpenGL" }
@@ -18,7 +18,7 @@ project "NovaCraft"
       defines { "GLFW_INCLUDE_NONE" }
     
     filter "system:linux"
-      links { "dl", "pthread" }
+      links { "dl" }
     
     filter "system:macosx"
       links { "CoreFoundation.framework", "IOKit.framework", "Cocoa.framework" }
